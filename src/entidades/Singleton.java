@@ -12,8 +12,9 @@ public class Singleton {
             singleton = new Singleton();
         return singleton;
     }
-    public void abrirConexao() {
-    	// <<Exemplo>>
+    public void abrirConexao() {    	
+    	// Permitir por exemplo uma única conexão de banco
+    	// pode ser um exemplo do uso de Singleton
     	// <<Insira o código de conexão aqui>>
     }   
     
