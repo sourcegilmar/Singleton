@@ -14,10 +14,10 @@ public class Programa {
 		sing2 = Singleton.getSingletonInstance();
 
 		if (sing1.equals(sing2)) {
-			JOptionPane.showMessageDialog(null,
-					"ATENÇÃO!" + "equals >> singleton1 e singleton2" + "se referem a mesma instância de Singleton");
-			System.out.println("singleton1 " + sing1.hashCode() + " e singleton2 " + sing2.hashCode()
-					+ " se referem a mesma instância de Singleton");
+			System.out.println("ATENÇÃO:");
+			System.out.println("singleton1 e singleton2" + " se referem a mesma instância de Singleton\n");
+			System.out.println("singleton1: " + sing1.hashCode() + 
+					"\nsingleton2: " + sing2.hashCode());
 		}
 	}
 	
